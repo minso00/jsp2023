@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h3>회원가입</h3>
+	<form action="login_ok.jsp" method="post">
+		<table>
+			   <tr>
+            <td>아이디</td>
+            <td><input type="text" name="id"></td>
+        </tr>
+
+        <tr>
+            <td>비밀번호</td>
+            <td><input type="password" name=pwd></td>
+        </tr>
+        
+        <tr>
+            <td>성별</td>
+            <td>
+                <input name="gender" type="radio" value="남" checked>남
+                <input name="gender" type="radio" value="여">여
+            </td>
+        </tr>
+        
+        <tr>
+            <td>주소지</td>
+            <td>
+                <select name="address" size="1">
+                    <option value="서울" selected >서울</option>
+                    <option value="경기">경기</option>
+                    <option value="인천">인천</option>
+                    <option value="기타">기타</option>
+                </select>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>관심언어</td>
+            <td>
+                <input name="lang" type="checkbox" value="영어" checked>영어
+                <input name="lang" type="checkbox" value="일본어">일본어
+                <input name="lang" type="checkbox" value="중국어">중국어
+                <input name="lang" type="checkbox" value="스페인어">스페인어
+            </td>
+        </tr>
+        
+        <tr>
+            <td>기타언어</td>
+            <td>
+                <textarea name="memo" rows="4"></textarea>
+            </td>
+		</table>
+		<input type="submit" value="가입하기">
+	</form>
+	
+</body>
+</html>

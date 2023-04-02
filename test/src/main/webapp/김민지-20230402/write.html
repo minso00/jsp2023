@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<div class="collapse" id="example-collapse">
+ <div class="container">
+	<div class="row">
+		<form action="write_ok.jsp" method="post">
+			<table class="table1" style="text-align:center; border: 1px solid #dddddd">
+				<thead>
+					<tr>
+						<th colspan="2" style="background-color:#eeeeee; text-align: center;">게시판 글쓰기</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<select name="year" size="1">
+								<option value="2023">2023</option>
+								<option value="2022">2022</option>
+								<option value="2021">2021</option>
+								<option value="2020">2020</option>
+							</select>년
+							<select name="month" size="1">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+							</select>월
+							<select name="day" size="1">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+								<option value="31">31</option>
+							</select>일
+							<input type="text" class="form-control" placeholder=" 작성자" name="name" maxlength="50">
+						</td>
+					</tr>
+					<tr>
+						<td><input type="text" class="form-control" placeholder=" 글 제목" name="title" maxlength="50" style="width:500px;	"></td>
+					</tr>
+					<tr>
+						<td><textarea class="form-control" placeholder="글 내용" name="content" maxlength="2048" style="width: 500px; height: 300px;"></textarea></td>
+					</tr>
+				</tbody>
+			</table>
+			<input type="submit" class="btnSub" value="글쓰기">
+		</form>
+	</div>
+ </div>
+</div>
+</body>
+</html>
